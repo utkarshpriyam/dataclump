@@ -1,0 +1,14 @@
+[
+  { "id": "", "name": "Lapaas Voice", "handle": "@lapaasvoice", "weight": 1.20, "category": "india_business" },
+  { "id": "", "name": "Varun Mayya", "handle": "@varunmayya", "weight": 1.30, "category": "india_ai_startup" },
+  { "id": "", "name": "Vaibhav Sisinty", "handle": "@vaibhavsisinty", "weight": 1.30, "category": "india_ai_growth" },
+  { "id": "", "name": "Think School", "handle": "@ThinkSchool", "weight": 1.20, "category": "india_business_geopolitics" },
+  { "id": "", "name": "Raj Shamani", "handle": "@RajShamani", "weight": 1.10, "category": "india_startup_business" },
+  { "id": "", "name": "Finance With Sharan", "handle": "@financewithsharan", "weight": 1.10, "category": "india_finance_business" },
+  { "id": "", "name": "Nitish Rajput", "handle": "@NitishRajput", "weight": 1.00, "category": "india_current_affairs" },
+  { "id": "", "name": "Harkirat Singh", "handle": "@harkirat1", "weight": 1.10, "category": "india_dev_ai" },
+  { "id": "", "name": "MKBHD", "handle": "@mkbhd", "weight": 1.00, "category": "global_tech" },
+  { "id": "", "name": "Fireship", "handle": "@Fireship", "weight": 1.15, "category": "global_dev_ai" },
+  { "id": "", "name": "AI Explained", "handle": "@aiexplained-official", "weight": 1.20, "category": "global_ai" },
+  { "id": "", "name": "Y Combinator", "handle": "@ycombinator", "weight": 1.05, "category": "global_startup" }
+]
