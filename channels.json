@@ -1,14 +1,86 @@
 [
-  { "id": "", "name": "Lapaas Voice", "handle": "@lapaasvoice", "weight": 1.20, "category": "india_business" },
-  { "id": "", "name": "Varun Mayya", "handle": "@varunmayya", "weight": 1.30, "category": "india_ai_startup" },
-  { "id": "", "name": "Vaibhav Sisinty", "handle": "@vaibhavsisinty", "weight": 1.30, "category": "india_ai_growth" },
-  { "id": "", "name": "Think School", "handle": "@ThinkSchool", "weight": 1.20, "category": "india_business_geopolitics" },
-  { "id": "", "name": "Raj Shamani", "handle": "@RajShamani", "weight": 1.10, "category": "india_startup_business" },
-  { "id": "", "name": "Finance With Sharan", "handle": "@financewithsharan", "weight": 1.10, "category": "india_finance_business" },
-  { "id": "", "name": "Nitish Rajput", "handle": "@NitishRajput", "weight": 1.00, "category": "india_current_affairs" },
-  { "id": "", "name": "Harkirat Singh", "handle": "@harkirat1", "weight": 1.10, "category": "india_dev_ai" },
-  { "id": "", "name": "MKBHD", "handle": "@mkbhd", "weight": 1.00, "category": "global_tech" },
-  { "id": "", "name": "Fireship", "handle": "@Fireship", "weight": 1.15, "category": "global_dev_ai" },
-  { "id": "", "name": "AI Explained", "handle": "@aiexplained-official", "weight": 1.20, "category": "global_ai" },
-  { "id": "", "name": "Y Combinator", "handle": "@ycombinator", "weight": 1.05, "category": "global_startup" }
+  {
+    "id": "UC0yTzhyCOykbC8LLDBDheGA",
+    "name": "Lapaas Voice",
+    "handle": "@lapaasvoice",
+    "weight": 1.2,
+    "category": "india_business"
+  },
+  {
+    "id": "UCsQoiOrh7jzKmE8NBofhTnQ",
+    "name": "Varun Mayya",
+    "handle": "@varunmayya",
+    "weight": 1.3,
+    "category": "india_ai_startup"
+  },
+  {
+    "id": "UClXAalunTPaX1YV185DWUeg",
+    "name": "Vaibhav Sisinty",
+    "handle": "@vaibhavsisinty",
+    "weight": 1.3,
+    "category": "india_ai_growth"
+  },
+  {
+    "id": "UCKZozRVHRYsYHGEyNKuhhdA",
+    "name": "Think School",
+    "handle": "@ThinkSchool",
+    "weight": 1.2,
+    "category": "india_business_geopolitics"
+  },
+  {
+    "id": "UCzwCEE_PchiBULMnAJqhGVg",
+    "name": "Raj Shamani",
+    "handle": "@RajShamani",
+    "weight": 1.1,
+    "category": "india_startup_business"
+  },
+  {
+    "id": "UCwVEhEzsjLym_u1he4XWFkg",
+    "name": "Finance With Sharan",
+    "handle": "@financewithsharan",
+    "weight": 1.1,
+    "category": "india_finance_business"
+  },
+  {
+    "id": "UC6WzPg6yxF9dQx2_O6R4lww",
+    "name": "Nitish Rajput",
+    "handle": "@NitishRajput",
+    "weight": 1.0,
+    "category": "india_current_affairs"
+  },
+  {
+    "id": "UCWX0cUR2rZcqKei1Vstww-A",
+    "name": "Harkirat Singh",
+    "handle": "@harkirat1",
+    "weight": 1.1,
+    "category": "india_dev_ai"
+  },
+  {
+    "id": "UCBJycsmduvYEL83R_U4JriQ",
+    "name": "MKBHD",
+    "handle": "@mkbhd",
+    "weight": 1.0,
+    "category": "global_tech"
+  },
+  {
+    "id": "UCsBjURrPoezykLs9EqgamOA",
+    "name": "Fireship",
+    "handle": "@Fireship",
+    "weight": 1.15,
+    "category": "global_dev_ai"
+  },
+  {
+    "id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "name": "AI Explained",
+    "handle": "@aiexplained-official",
+    "weight": 1.2,
+    "category": "global_ai"
+  },
+  {
+    "id": "UCcefcZRL2oaA_uBNeo5UOWg",
+    "name": "Y Combinator",
+    "handle": "@ycombinator",
+    "weight": 1.05,
+    "category": "global_startup"
+  }
 ]

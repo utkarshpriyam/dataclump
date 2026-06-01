@@ -11,7 +11,7 @@ on:
 jobs:
   run-digest:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
 
     steps:
       - name: Checkout
@@ -33,8 +33,17 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           CHANNEL_IDS: ${{ secrets.CHANNEL_IDS }}
           LOOKBACK_HOURS: ${{ vars.LOOKBACK_HOURS || '24' }}
-          MAX_VIDEOS_PER_CHANNEL: ${{ vars.MAX_VIDEOS_PER_CHANNEL || '5' }}
-          MAX_TOTAL_VIDEOS: ${{ vars.MAX_TOTAL_VIDEOS || '20' }}
-          VIDEO_SUMMARY_MODEL: ${{ vars.VIDEO_SUMMARY_MODEL || 'gemini-2.5-flash' }}
-          DIGEST_MODEL: ${{ vars.DIGEST_MODEL || 'gemini-2.5-pro' }}
+          MAX_VIDEOS_PER_CHANNEL: ${{ vars.MAX_VIDEOS_PER_CHANNEL || '2' }}
+          MAX_TOTAL_VIDEOS: ${{ vars.MAX_TOTAL_VIDEOS || '4' }}
+          YOUTUBE_CHANNEL_DELAY_MS: ${{ vars.YOUTUBE_CHANNEL_DELAY_MS || '1500' }}
+          YOUTUBE_MAX_RETRIES: ${{ vars.YOUTUBE_MAX_RETRIES || '5' }}
+          GEMINI_RPM: ${{ vars.GEMINI_RPM || '4' }}
+          GEMINI_CALL_DELAY_MS: ${{ vars.GEMINI_CALL_DELAY_MS || '0' }}
+          GEMINI_FINAL_DELAY_MS: ${{ vars.GEMINI_FINAL_DELAY_MS || '0' }}
+          LLM_MAX_RETRIES: ${{ vars.LLM_MAX_RETRIES || '2' }}
+          LLM_BACKOFF_BASE_SECONDS: ${{ vars.LLM_BACKOFF_BASE_SECONDS || '3' }}
+          VIDEO_SUMMARY_MODEL: ${{ vars.VIDEO_SUMMARY_MODEL || 'gemini-2.5-flash-lite' }}
+          VIDEO_SUMMARY_FALLBACK_MODEL: ${{ vars.VIDEO_SUMMARY_FALLBACK_MODEL || 'gemini-2.5-flash-lite' }}
+          DIGEST_MODEL: ${{ vars.DIGEST_MODEL || 'gemini-2.5-flash-lite' }}
+          DIGEST_FALLBACK_MODEL: ${{ vars.DIGEST_FALLBACK_MODEL || 'gemini-2.5-flash-lite' }}
         run: python main.py
